@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "node dev-server.js",
-    "start": "cross-env NODE_ENV=production node prod-server.js",
+    "dev": "nodemon dev-server.js",
+    "start": "cross-env NODE_ENV=production nodemon prod-server.js",
     "pm2": "pm2 start npm --name @wipi/admin -- start",
     "lint": "next lint"
   },
